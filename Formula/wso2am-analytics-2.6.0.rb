@@ -17,7 +17,6 @@ class Wso2amAnalytics260 < Formula
     profiles.each do |profile|
       bin.install "bin/#{product}-#{version}-#{profile}" => "#{product}-#{version}-#{profile}"
     end
-
     libexec.install Dir["*"]
     bin.env_script_all_files(libexec/"bin", Language::Java.java_home_env("1.8"))
 
