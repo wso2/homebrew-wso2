@@ -2,7 +2,7 @@ class Wso2isAnalytics570 < Formula
   desc "WSO2 Identity Server Analytics 5.7.0"
   homepage "https://wso2.com/identity-and-access-management/"
   url "https://dl.bintray.com/wso2/binary/wso2is-analytics-5.7.0.zip"
-  sha256 "84ba5b750441b162df4773fd7f4b99859e8a38dfb5f4702359a0900508c4dcc2"
+  sha256 "75123918cd9ea5aa308916181768df520030744794445b17f8cd9d5282de2274"
 
   bottle :unneeded
 
