@@ -1,7 +1,7 @@
 class Wso2ei650 < Formula
   desc "WSO2 Enterprise Integrator 6.5.0"
   homepage "https://wso2.com/integration/"
-  url "file:///Users/irunika/Documents/Packs/wso2ei-6.5.0.zip"
+  url "https://dl.bintray.com/wso2/binary/wso2ei-6.5.0.zip"
   sha256 "bf60a8341ad36c7e128acb841ae106afa86f55d451e7e8408de415f3f5a5e945"
 
   bottle :unneeded
