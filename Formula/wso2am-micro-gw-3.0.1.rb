@@ -2,7 +2,7 @@ class Wso2amMicroGw301 < Formula
   desc "WSO2 API Micro Gateway 3.0.1"
   homepage "https://wso2.com/api-management/api-microgateway/"
   url "https://dl.bintray.com/wso2/binary/wso2am-micro-gw-3.0.1.zip"
-  sha256 "97933491fbd12119bde2b6362d3202e715046e5aaaf9787290b45a25536b6a4a"
+  sha256 "7cf68d87e2d9bc2e3d5db403bbd0e26402982ce16e987e0ef765fca879449c23"
 
   bottle :unneeded
 
