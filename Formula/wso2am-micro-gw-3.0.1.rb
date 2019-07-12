@@ -1,4 +1,4 @@
-class Wso2mi100 < Formula
+class Wso2amMicroGw301 < Formula
   desc "WSO2 API Micro Gateway 3.0.1"
   homepage "https://wso2.com/api-management/api-microgateway/"
   url "https://dl.bintray.com/wso2/binary/wso2am-micro-gw-3.0.1.zip"
