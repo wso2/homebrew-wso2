@@ -18,7 +18,9 @@ class Wso2amMicroGw301 < Formula
     bin.env_script_all_files(libexec/"bin", Language::Java.java_home_env("1.8"))
 
     puts "Installation is completed."
-    puts "\nRun #{product}-#{version} to start WSO2 Micro Gateway #{version}."
+    puts "\nRun"
+    puts "\n  #{product}-#{version} <Path_to_Executable_Artifact>" 
+    puts "\nto start WSO2 Micro Gateway #{version}."
     puts "\ncheers!!"
   end
 end
