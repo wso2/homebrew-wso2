@@ -1,7 +1,7 @@
 class Wso2ei700 < Formula
   desc "WSO2 Enterprise Integrator 7.0.0"
   homepage "https://wso2.com/integration/"
-  url "file:/Users/wso2/Documents/EI7/brew/wso2ei-7.0.0.zip"
+  url "https://dl.bintray.com/wso2/binary/wso2ei-7.0.0.zip"
   sha256 "1b3214d972ac2440fc61181f46ce5ea85e8259c9f7eb1d42ae34ecd03e991a11"
 
   bottle :unneeded
