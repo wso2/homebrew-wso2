@@ -1,7 +1,7 @@
 class Wso2amMicroGwToolkit302 < Formula
   desc "WSO2 API Micro Gateway Toolkit 3.0.2"
   homepage "https://wso2.com/api-management/api-microgateway/"
-  url "file:/Users/wso2/Documents/EI7/brew/wso2am-micro-gw-toolkit-3.0.2.zip"
+  url "https://dl.bintray.com/wso2/binary/wso2am-micro-gw-toolkit-3.0.2.zip"
   sha256 "0b65ccc0f447f40c301c6210d6d5c27022f2a903bf8399d24bd2a4f98a359e56"
 
   bottle :unneeded
