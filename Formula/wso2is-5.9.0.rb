@@ -9,20 +9,18 @@ class Wso2is590 < Formula
   depends_on :java => "1.8"
 
   def check_eula_acceptance()
-    puts "in eula\n\n"
     notread = true
-    print "IMPORTANT – READ CAREFULLY:"
-    print "PLEASE REFER THE SOFTWARE LICENSE [https://wso2.com/license/wso2-update/LICENSE.txt] CAREFULLY BEFORE COMPLETING THE INSTALLATION PROCESS AND USING THE SOFTWARE."
-    print "Do you agree with the WSO2 SOFTWARE LICENSE AGREEMENT?"
+    puts "\nIMPORTANT – READ CAREFULLY:"
+    puts "PLEASE REFER THE SOFTWARE LICENSE [https://wso2.com/license/wso2-update/LICENSE.txt] CAREFULLY BEFORE COMPLETING THE INSTALLATION PROCESS AND USING THE SOFTWARE."
     while notread
-      ans = gets.chomp
-      puts "#{ans}"
+      print "DO YOU AGREE WITH WSO2 SOFTWARE LICENSE AGREEMENT? "
+      ans = STDIN.gets.chomp
       if ( ans == 'y' || ans == 'Y' )
           notread = false
-          puts "Cotinuing with the installment"
+          puts "\nCotinuing with the installation"
       elsif ( ans == 'n' || ans == 'N'  )
           notread = false
-          puts "Installation Aborted !"
+          puts "\nInstallation Aborted !"
           exit(0)
       else
           puts "Please enter Y if you agrees with EULA. Otherwise enter N"
