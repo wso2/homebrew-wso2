@@ -52,5 +52,4 @@ class Wso2ei700 < Formula
       puts "\tStreaming-Integrator".ljust(21) + ": wso2si"
       puts "\ncheers!!"
     end
-  end
-  
+  end 
