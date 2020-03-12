@@ -13,11 +13,11 @@ class Wso2am300 < Formula
     puts "\nIMPORTANT – READ CAREFULLY:"
     puts "PLEASE REFER THE SOFTWARE LICENSE [https://wso2.com/license/wso2-update/LICENSE.txt] CAREFULLY BEFORE COMPLETING THE INSTALLATION PROCESS AND USING THE SOFTWARE."
     while notread
-      print "Do you agree with the WSO2 SOFTWARE LICENSE AGREEMENT? "
+      print "Do you agree with the WSO2 SOFTWARE LICENSE AGREEMENT ? [Y/n]"
       ans = STDIN.gets.chomp
       if ( ans == 'y' || ans == 'Y' )
           notread = false
-          puts "\nCotinuing with the installment"
+          puts "\nContinuing with the installment"
       elsif ( ans == 'n' || ans == 'N'  )
           notread = false
           puts "\nInstallation Aborted !"
@@ -41,7 +41,8 @@ class Wso2am300 < Formula
     bin.env_script_all_files(libexec/"bin", Language::Java.java_home_env("1.8"))
 
     puts "Installation is completed."
+    puts "\nIMPORTANT: After WSO2 API Manager 3.0.0 is successfully installed, Instigate any improvements on top of a released WSO2 product version by running In-Place Updates tool."
     puts "\nRun #{product}-#{version} to start WSO2 API Manager #{version}."
-    puts "\ncheers!!"
+    puts "\nCheers!!"
   end
 end
