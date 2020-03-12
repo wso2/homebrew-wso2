@@ -8,32 +8,9 @@ class Wso2ei700 < Formula
 
   depends_on :java => "1.8"
 
-  def check_eula_acceptance()
-    notread = true
-    puts "IMPORTANT – READ CAREFULLY:"
-    puts "PLEASE REFER THE SOFTWARE LICENSE [https://wso2.com/license/wso2-update/LICENSE.txt] CAREFULLY BEFORE COMPLETING THE INSTALLATION PROCESS AND USING THE SOFTWARE."
-    while notread
-      print "Do you agree with the WSO2 SOFTWARE LICENSE AGREEMENT? "
-      ans = STDIN.gets.chomp
-      if ( ans == 'y' || ans == 'Y' )
-          notread = false
-          puts "\nCotinuing with the installment"
-      elsif ( ans == 'n' || ans == 'N'  )
-          notread = false
-          puts "\nInstallation Aborted !"
-          exit(0)
-      else
-          puts "\nPlease enter Y if you agrees with EULA. Otherwise enter N"
-          notread = true
-      end
-    end
-  end
-
   def install
     product = "wso2ei"
     version = "7.0.0"
-
-    check_eula_acceptance()
 
     chmod 0755, "ballerina-integrator/bin/ballerina"
 
