@@ -2,7 +2,7 @@ class Wso2am300 < Formula
   desc "WSO2 API Manager 3.0.0"
   homepage "https://wso2.com/api-management/"
   url "https://dl.bintray.com/wso2/binary/wso2am-3.0.0.zip"
-  sha256 "80dd6eaf9704eb77f2cba3805113aa40120500e3e31cd0592d89473a65ab0ab2"
+  sha256 "a0fb0fdea6ff1901206dcb875ced4711929f0c78e700e0d29ad6886dfd9a1fe9"
 
   bottle :unneeded
 
@@ -13,7 +13,7 @@ class Wso2am300 < Formula
     puts "\nIMPORTANT – READ CAREFULLY:"
     puts "PLEASE REFER THE SOFTWARE LICENSE [https://wso2.com/license/wso2-update/LICENSE.txt] CAREFULLY BEFORE COMPLETING THE INSTALLATION PROCESS AND USING THE SOFTWARE."
     while notread
-      print "Do you agree with the WSO2 SOFTWARE LICENSE AGREEMENT ? [Y/n]"
+      print "Do you agree with the WSO2 SOFTWARE LICENSE AGREEMENT ? [Y/n]: "
       ans = STDIN.gets.chomp
       if ( ans == 'y' || ans == 'Y' )
           notread = false

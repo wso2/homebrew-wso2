@@ -2,7 +2,7 @@ class Wso2is590 < Formula
   desc "WSO2 Identity Server 5.9.0"
   homepage "https://wso2.com/api-management/"
   url "https://dl.bintray.com/wso2/binary/wso2is-5.9.0.zip"
-  sha256 "4ff3a630ca7dda4022fe14f6e4e6e6a65dd77087b294ffdfa15f2ffe2cf303a1"
+  sha256 "f4fb0c4b24d53521d787959165163d2db865c102edbd2173a2aeb66d35e06b41"
 
   bottle :unneeded
 
@@ -13,7 +13,7 @@ class Wso2is590 < Formula
     puts "\nIMPORTANT – READ CAREFULLY:"
     puts "PLEASE REFER THE SOFTWARE LICENSE [https://wso2.com/license/wso2-update/LICENSE.txt] CAREFULLY BEFORE COMPLETING THE INSTALLATION PROCESS AND USING THE SOFTWARE."
     while notread
-      print "DO YOU AGREE WITH WSO2 SOFTWARE LICENSE AGREEMENT ? [Y/n] "
+      print "DO YOU AGREE WITH WSO2 SOFTWARE LICENSE AGREEMENT ? [Y/n]: "
       ans = STDIN.gets.chomp
       if ( ans == 'y' || ans == 'Y' )
           notread = false
