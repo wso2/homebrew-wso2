@@ -1,8 +1,8 @@
-class Wso2ei700 < Formula
+class Wso2ei702 < Formula
     desc "WSO2 Enterprise Integrator 7.0.2"
     homepage "https://wso2.com/integration/"
     url "https://dl.bintray.com/wso2/binary/wso2ei-7.0.2.zip"
-    sha256 "1b3214d972ac2440fc61181f46ce5ea85e8259c9f7eb1d42ae34ecd03e991a11"
+    sha256 "0ec1d9b6b8726aa0519c3372427f60700c2b775010e666d8cad2c85b7f037fda"
 
     bottle :unneeded
 
@@ -13,10 +13,9 @@ class Wso2ei700 < Formula
         notread = true
         print "IMPORTANT – READ CAREFULLY:"
         print "PLEASE REFER THE SOFTWARE LICENSE [https://wso2.com/license/wso2-update/LICENSE.txt] CAREFULLY BEFORE COMPLETING THE INSTALLATION PROCESS AND USING THE SOFTWARE."
-        print "Do you agree with the WSO2 SOFTWARE LICENSE AGREEMENT?"
         while notread
-          print "Please read WSO2 SOFTWARE LICENSE in  ? [Y/n]: "
-          ans = gets.chomp
+          print "Do you agree with the WSO2 SOFTWARE LICENSE AGREEMENT? [Y/n]: "
+          ans = STDIN.gets.chomp
           puts "#{ans}"
           if ( ans == 'y' || ans == 'Y' )
               notread = false
