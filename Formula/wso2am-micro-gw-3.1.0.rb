@@ -1,3 +1,7 @@
+# -------------------------------------------------------------------------
+# Copyright (c) 2020, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+# -------------------------------------------------------------------------
+
 class Wso2amMicroGw310 < Formula
   desc "WSO2 API Micro Gateway 3.1.0"
   homepage "https://wso2.com/api-management/api-microgateway/"

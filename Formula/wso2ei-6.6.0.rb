@@ -1,3 +1,7 @@
+# -------------------------------------------------------------------------
+# Copyright (c) 2020, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+# -------------------------------------------------------------------------
+
 class Wso2ei660 < Formula
   desc "WSO2 Enterprise Integrator 6.6.0"
   homepage "https://wso2.com/integration/"
