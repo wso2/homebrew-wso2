@@ -1,3 +1,7 @@
+# -------------------------------------------------------------------------
+# Copyright (c) 2020, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+# -------------------------------------------------------------------------
+
 class Wso2am300 < Formula
   desc "WSO2 API Manager 3.0.0"
   homepage "https://wso2.com/api-management/"

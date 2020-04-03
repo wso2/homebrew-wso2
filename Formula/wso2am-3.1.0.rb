@@ -1,3 +1,7 @@
+# -------------------------------------------------------------------------
+# Copyright (c) 2020, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+# -------------------------------------------------------------------------
+
 class Wso2amAnalytics310 < Formula
   class Wso2am310 < Formula
     desc "WSO2 API Manager 3.1.0"

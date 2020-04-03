@@ -1,3 +1,7 @@
+# -------------------------------------------------------------------------
+# Copyright (c) 2020, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+# -------------------------------------------------------------------------
+
 class Wso2isKm5100 < Formula
   desc "WSO2 Identity Server as a Key Manager 5.10.0"
   homepage "https://wso2.com/api-management/"
