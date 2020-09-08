@@ -5,8 +5,8 @@
 class Wso2ei710 < Formula
   desc "WSO2 Enterprise Integrator 7.1.0"
   homepage "https://wso2.com/integration/"
-  url ""
-  sha256 ""
+  url "https://dl.bintray.com/wso2/binary/wso2ei-7.1.0.zip"
+  sha256 "1ce283dd5dbd9ae5fe909cb1ad4249045dd2b74cf1a63a3e732f9cffb7325785"
 
   bottle :unneeded
 
@@ -43,8 +43,8 @@ class Wso2ei710 < Formula
 
     puts "Installing WSO2 Enterprise Integrator #{version}..."
 
-    bin.install "micro-integrator/wso2mi-runtime/bin/wso2mi-runtime" => "wso2mi-runtime-1.2.0"
-    bin.install "micro-integrator/wso2mi-dashboard/bin/wso2mi-dashboard" => "wso2mi-dashboard-1.2.0"
+    bin.install "micro-integrator/bin/wso2mi-runtime" => "wso2mi-runtime-1.2.0"
+    bin.install "micro-integrator-dashboard/bin/wso2mi-dashboard" => "wso2mi-dashboard-1.2.0"
     bin.install "streaming-integrator/bin/wso2si" => "wso2si-1.1.0"
 
     libexec.install Dir["*"]
