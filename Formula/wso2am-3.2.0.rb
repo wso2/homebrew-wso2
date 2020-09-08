@@ -10,8 +10,6 @@ class Wso2am320 < Formula
 
     bottle :unneeded
 
-    # depends_on :java => "11"
-
     def check_eula_acceptance()
       notread = true
       puts "\nIMPORTANT – READ CAREFULLY:"
@@ -52,4 +50,3 @@ class Wso2am320 < Formula
       puts "\nCheers!!"
     end
 end
-
