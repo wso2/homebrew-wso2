@@ -10,8 +10,6 @@ class Wso2ei710 < Formula
 
   bottle :unneeded
 
-  # depends_on :java => "1.8"
-
   def check_eula_acceptance()
       puts "in eula\n\n"
       notread = true

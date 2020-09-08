@@ -50,4 +50,3 @@ class Wso2amMicroGw320 < Formula
     puts "\ncheers!!"
   end
 end
-
