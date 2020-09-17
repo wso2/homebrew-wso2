@@ -38,7 +38,7 @@ class Wso2amMicroGwToolkit320 < Formula
     check_eula_acceptance()
 
     puts "Installing WSO2 API Micro Gateway Toolkit #{version}..."
-    bin.install "bin/#{product}-#{version}" => "micro-gw"
+    bin.install "bin/micro-gw" => "micro-gw"
     libexec.install Dir["*"]
     bin.env_script_all_files(libexec/"bin", Language::Java.java_home_env("1.8"))
 
