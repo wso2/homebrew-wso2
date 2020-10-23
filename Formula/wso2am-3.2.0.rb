@@ -6,7 +6,7 @@ class Wso2am320 < Formula
     desc "WSO2 API Manager 3.2.0"
     homepage "https://wso2.com/api-management/"
     url "https://dl.bintray.com/wso2/binary/wso2am-3.2.0.zip"
-    sha256 "3711ffa97fe9f95f72ebfbba58f5e94e37525a9fa8c5496a896fbb5d88fdee7c"
+    sha256 "a6fa90c0296a2b96b9cee87ecfa939ebd9d3d873c6044617246c4ebae7a2372a"
 
     bottle :unneeded
 
