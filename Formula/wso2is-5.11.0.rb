@@ -4,7 +4,7 @@
 
 class Wso2is5110 < Formula
   desc "WSO2 Identity Server 5.11.0"
-  homepage "https://wso2.com/api-management/"
+  homepage "https://wso2.com/identity-and-access-management/"
   url "https://dl.bintray.com/wso2/binary/wso2is-5.11.0.zip"
   sha256 "d9f5990dc0f80213e3120c278ef552a167d1c2fe89be207e9dffdea6bee5edc8"
 
