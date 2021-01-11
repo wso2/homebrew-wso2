@@ -10,7 +10,7 @@ class Wso2isKm5100 < Formula
 
   bottle :unneeded
 
-  # depends_on :java => "11"
+  # depends_on "openjdk@11"
 
   def check_eula_acceptance()
     notread = true
